@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}
+			<title>Seeds</title>
+			<link rel="stylesheet" type="text/css" href="static/css/seeds_style.css">
+
+{% endblock %}
+
+{% block content %}
+	
+		<div class="display_text">Select the seed you want to buy</div>
+		
+		<div>
+			
+			<a href="/seeds/cotton"><img src="static/pictures/cotton.jpg" class="first-seed"></a>
+			<a href="/seeds/paddy"><img src="static/pictures/paddy.jpg" class="second-seed"></a>
+			<a href="/seeds/soybean"><img src="static/pictures/soybean.jpg" class="third-seed"></a>
+			<a href="/seeds/tur"><img src="static/pictures/tur.jpg" class="fourth-seed"></a>
+
+		</div>
+
+		<div>
+			
+			<a href="/seeds/jowar"><img src="static/pictures/jowar.jpg" class="fifth-seed"></a>
+			<a href="/seeds/maize"><img src="static/pictures/maize.jpg" class="sixth-seed"></a>
+			<a href="/seeds/wheat"><img src="static/pictures/wheat.jpg" class="seventh-seed"></a>
+			<a href="/seeds/gram"><img src="static/pictures/gram.jpg" class="eigth-seed"></a>
+
+		</div>
+
+{% endblock %}

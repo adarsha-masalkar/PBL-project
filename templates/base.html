@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/static/css/base_style.css"/>
+    <link rel="shortcut icon" type="image/jpg" href="/static/pictures/fav.jpg">
+    {% block title %}{% endblock %}
+</head>
+<body>
+
+	<div class="banner">
+			
+			<div class="navbar">
+
+				<img src="/static/pictures/logo.jpg" class="logo">
+
+				<ul>
+					
+						<li><a href="/">Home</a></li>
+						<li><a href="/seeds">Seeds</a></li>
+						<li><a href="/fertilizers">Fertilizers</a></li>
+						<li><a href="/crops">Crops</a></li>
+						<li><a href="/soiltest">Soil Test</a></li>
+
+				</ul>
+						
+			</div>
+		{% block content %}{% endblock %}
+	</div>
+</body>
+</html>

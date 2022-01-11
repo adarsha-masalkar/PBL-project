@@ -1,0 +1,31 @@
+.banner{
+	width: auto;
+	height: auto;
+	background-attachment: fixed;
+}
+
+.seed-title{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+
+.items{
+	display: flex;
+	margin: 50px 100px 20px;
+}
+
+.content-img{
+	cursor: pointer;
+	width: 200px;
+	border-radius: 20px;
+}
+
+.text{
+	margin-left: 100px;
+	padding: 20px;
+	width: 1000px;
+	text-align: center;
+	background-color: #98ff98;
+	border-radius: 20px;
+}
